@@ -1,0 +1,372 @@
+---
+layout: default
+name: "list"
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>水果网</title>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="layout.css">
+    <style type="text/css">
+
+        /*列表上*/
+        .list-top{
+            background-image: url(images/list-pig1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 30px;
+        }
+
+        .list-top-content{
+            height: 137px;
+            width: 1357px;
+            margin-top: 20px;
+            color: white;
+        }
+
+        /*中间*/
+
+        .list-middle{
+            background-position: center;
+            background-size: cover;
+            background-blend-mode: overlay;
+            background-image: url(images/list-pig.jpeg);
+            background-color: rgba(255,255,255,0.74);
+            width: 100%;
+            padding: 4% 0;
+        }
+
+        .list-middle-content{
+            height: 292px;
+            width: 968px;
+            padding-left: 30px;
+            background-color: #FFFFFF;
+            margin-top: 40px;
+            margin-left: 120px;
+            display: flex;
+        }
+
+        .list-image{
+            width: 222px;
+            height: 138px;
+            text-align: center;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        .course-description{
+            width: 50%;
+            padding: 0 10px;
+            box-sizing: border-box;
+        }
+
+        .course-list-title a{
+            cursor: pointer;
+            color: #3d3d3d;
+            text-decoration: none;
+        }
+
+        .course-instructor{
+            margin: 15px 0;
+            display: flex;
+
+        }
+
+        .course-instructor img{
+            width: 32px;
+            height: 32px;
+            border-radius: 100%;
+        }
+
+        .course-meta{
+            padding-left: 30px;
+        }
+
+        .course-price{
+
+        }
+        /*列表下部*/
+        .list-down{
+            background-blend-mode: overlay;
+            background-image: url(./images/list-pig3.jpg);
+            background-color: rgba(0,0,0,0.49);
+            padding: 4% 0;
+            background-position: center;
+            background-size: cover;
+            margin: 0 auto;
+
+        }
+
+        .list_description{
+            /*padding-left: 400px;*/
+
+            flex-direction: column;
+            display: flex;
+            align-content:center;
+            color: #FFFFFF;
+            width: 40%;
+            margin-left: 150px;
+        }
+        .btn a{
+            text-decoration: none;
+            cursor: pointer;
+            order: 2px solid whrite;
+            font-size: 30px;
+        }
+
+    </style>
+</head>
+<body>
+<section class="zt">
+    <header>
+        <!--下拉-->
+        <div class="t">
+            <div class="container">
+                <div class="row" id="top-header">
+                    <div class="col-md-10" id="t1"><a href="https://www.academyofmine.com">This is a demo site of academyofmine.com. Click here to see how you can build your own Academy.</a></div>
+
+                    <div class="col-md-2" id="t2">
+                        <a href="https://demo3.academyofmine.com/cart/" >
+                            <span class="glyphicon glyphicon-shopping-cart"></span><span>0 Items</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--导航-->
+
+        <nav id="nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4"><img src="https://demo3.academyofmine.com/wp-content/uploads/2017/08/cherry_logo.png"></div>
+                    <!--<div class="col-md-1" ><a href="https://demo3.academyofmine.com/">Home</a></div>-->
+                    <!--<div class="col-md-1 dropdown">-->
+                    <!--<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">-->
+                    <!--<a href="#">Courses</a>-->
+                    <!--</button>-->
+                    <!--<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">-->
+                    <!--<li><a href="#">Action</a></li>-->
+                    <!--<li><a href="#">Another action</a></li>-->
+                    <!--<li><a href="#">Something else here</a></li>-->
+                    <!--</ul>-->
+                    <!--</div>-->
+                    <!--<div class="col-md-1" class="dropdown"><a href="#">Course Layouts</a></div>-->
+                    <!--<div class="col-md-1"><a href="https://demo3.academyofmine.com/blog/">Blog</a></div>-->
+                    <!--<div class="col-md-1"><a href="https://demo3.academyofmine.com/contact-us/">Contact Us</a></div>-->
+                    <!--<div class="col-md-1"><a href="https://demo3.academyofmine.com/about-us/">About Us</a></div>-->
+                    <!--<div class="col-md-1" id="login"><a href="https://demo3.academyofmine.com/my-account/">Login</a></div>-->
+                    <!--<div class="col-md-1"></div>-->
+                    <div class="col-md-8" id="top-menu">
+                        <ul class="nav nav-pills">
+                            <li role="presentation" class="Clickable link"><a href="#">Home</a></li>
+                            <li role="presentation" class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                    Courses <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li id="menu-item-190" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-190"><a href="https://demo3.academyofmine.com/our-courses/">Course List (Card View)</a></li>
+                                    <li id="menu-item-191" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-191"><a href="https://demo3.academyofmine.com/our-courses-2/">Course List (List View)</a></li>
+
+                                </ul>
+                            </li>
+                            <li role="presentation" class="Clickable link"><a href="#">Course Layouts</a></li>
+                            <li role="presentation" class="Clickable link"><a href="#">Blog</a></li>
+                            <li role="presentation" class="Clickable link"><a href="#">Contact US</a></li>
+                            <li role="presentation" class="Clickable link"><a href="#">About Us</a></li>
+                            <li role="presentation" class="Clickable link" id="login"><a href="#">Login</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--引入共有头部-->
+
+
+    <main>
+        <section class="list-top">
+
+            <section class="list-top-content">
+                <h1 style="text-align: center;"><span style="font-size: xx-large;"><strong>Our Courses</strong></span></h1>
+                <h3 style="text-align: center;"></h3>
+                <h3 style="text-align: center;">Browse the list of courses below, all our courses are self paced Online Format</h3>
+            </section>
+        </section>
+
+        <!--中间-->
+        <section class="list-middle">
+
+            <section class="list-middle-content">
+
+                <section class="course_image_container">
+                    <a href="详情路径" class="course-image">
+                        <img  class="list-image" src="./images/list-c1.jpg"  alt=""></a>
+                </section>
+
+                <section class="course-description">
+                        <h2 class="course-list-title">
+                            <a href="https://demo3.academyofmine.com/course/how-to-cook-cherries/">
+                                How To Cook Cherries            </a>
+                        </h2>
+                        <div class="star-rating"><div class="star star-empty" aria-hidden="true"></div><div class="star star-empty" aria-hidden="true"></div><div class="star star-empty" aria-hidden="true"></div><div class="star star-empty" aria-hidden="true"></div><div class="star star-empty" aria-hidden="true"></div><span class="review-text">( 0 reviews )</span></div>        <div class="post-content">
+                        The How To Cook Cherries is a one-of-a-kind online cherry cooking course. It’s a step-by-step cooking program complete with detailed training guides and video demonstrations … AND let me stress this next point … It is super easy to use !…        </div>
+                        <div class="read-more-button">
+                            <a href="https://demo3.academyofmine.com/course/how-to-cook-cherries/" class="">
+                                + Read More            </a>
+                        </div>
+
+                        <div class="course-instructor">
+                            <img src="./images/tb.jpg">
+                            <p>
+                                Tech Support
+                            </p>
+                        </div>
+                </section>
+
+                <section>
+                    <div class="course-meta">
+                        <div class="course-price">
+                            FREE        </div>
+                        <a style="color: #FFF !important; background: #b40431; font-size: 16px; border-color:#b40431" class="et_pb_button shortcode-course-button" href="https://demo3.academyofmine.com/course/how-to-cook-cherries/start-course">Enroll in Course</a>    </div>
+                </section>
+                <hr class="divider">
+            </section>
+
+            <section class="list-middle-content">
+
+                <section class="course_image_container">
+                    <a href="详情路径" class="course-image">
+                        <img  class="list-image" src="./images/list-c1.jpg"  alt=""></a>
+                </section>
+
+                <section class="course-description">
+                    <h2 class="course-list-title">
+                        <a href="https://demo3.academyofmine.com/course/how-to-cook-cherries/">
+                            How To Cook Cherries            </a>
+                    </h2>
+                    <div class="star-rating"><div class="star star-empty" aria-hidden="true"></div><div class="star star-empty" aria-hidden="true"></div><div class="star star-empty" aria-hidden="true"></div><div class="star star-empty" aria-hidden="true"></div><div class="star star-empty" aria-hidden="true"></div><span class="review-text">( 0 reviews )</span></div>        <div class="post-content">
+                    The How To Cook Cherries is a one-of-a-kind online cherry cooking course. It’s a step-by-step cooking program complete with detailed training guides and video demonstrations … AND let me stress this next point … It is super easy to use !…        </div>
+                    <div class="read-more-button">
+                        <a href="https://demo3.academyofmine.com/course/how-to-cook-cherries/" class="">
+                            + Read More            </a>
+                    </div>
+
+                    <div class="course-instructor">
+                        <img src="./images/tb.jpg">
+                        <p>
+                            Tech Support
+                        </p>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="course-meta">
+                        <div class="course-price">
+                            FREE        </div>
+                        <a style="color: #FFF !important; background: #b40431; font-size: 16px; border-color:#b40431" class="et_pb_button shortcode-course-button" href="https://demo3.academyofmine.com/course/how-to-cook-cherries/start-course">Enroll in Course</a>    </div>
+                </section>
+                <hr class="divider">
+            </section>
+
+            <section class="list-middle-content">
+
+                <section class="course_image_container">
+                    <a href="详情路径" class="course-image">
+                        <img  class="list-image" src="./images/list-c1.jpg"  alt=""></a>
+                </section>
+
+                <section class="course-description">
+                    <h2 class="course-list-title">
+                        <a href="https://demo3.academyofmine.com/course/how-to-cook-cherries/">
+                            How To Cook Cherries            </a>
+                    </h2>
+                    <div class="star-rating"><div class="star star-empty" aria-hidden="true"></div><div class="star star-empty" aria-hidden="true"></div><div class="star star-empty" aria-hidden="true"></div><div class="star star-empty" aria-hidden="true"></div><div class="star star-empty" aria-hidden="true"></div><span class="review-text">( 0 reviews )</span></div>        <div class="post-content">
+                    The How To Cook Cherries is a one-of-a-kind online cherry cooking course. It’s a step-by-step cooking program complete with detailed training guides and video demonstrations … AND let me stress this next point … It is super easy to use !…        </div>
+                    <div class="read-more-button">
+                        <a href="https://demo3.academyofmine.com/course/how-to-cook-cherries/" class="">
+                            + Read More            </a>
+                    </div>
+
+                    <div class="course-instructor">
+                        <img src="./images/tb.jpg">
+                        <p>
+                            Tech Support
+                        </p>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="course-meta">
+                        <div class="course-price">
+                            FREE        </div>
+                        <a style="color: #FFF !important; background: #b40431; font-size: 16px; border-color:#b40431" class="et_pb_button shortcode-course-button" href="https://demo3.academyofmine.com/course/how-to-cook-cherries/start-course">Enroll in Course</a>    </div>
+                </section>
+                <hr class="divider">
+            </section>
+
+        </section>
+        <!--中间结束-->
+
+        <section class="list-down">
+            <section class="list_description">
+                <section>
+                        <h2 class="et_pb_module_header">Our All-In-One Course Bundle</h2>
+                        <h3>Click the link below to get all our courses for $199</h3>
+                        <p>All Our courses have 10 day refund policy if you are not satisfied. No questions asked.</p>
+                </section>
+
+                <section class="btn-a">
+                        <a class="list-down-a" style="text-decoration: none;" href="https://demo3.academyofmine.com/product/bundled-all-in-one-cherry-classes/">Enroll Now</a>
+                </section>
+            </section>
+        </section>
+    </main>
+
+
+
+
+
+    <!--引入页脚-->
+    <footer>
+    <div class="col-md-12 copyright">
+        <div class="col-md-4">
+            <div id="footer-info">Copyright © 2017 School Of Cherries</div>
+        </div>
+        <div class="col-md-8 " id="icons">
+            <ul >
+
+                <li >
+                    <a href="#" class="icon">
+                        <span class="glyphicon glyphicon-education">Facebook</span>
+                    </a>
+                </li>
+                <li >
+                    <a href="#" class="icon">
+                        <span class="glyphicon glyphicon-sunglasses">Twitter</span>
+                    </a>
+                </li>
+                <li >
+                    <a href="#" class="icon">
+                        <span class="glyphicon glyphicon-piggy-bank">Google</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-12 baibai"></div>
+</footer>
+</section>
+</body>
+</html>
