@@ -1,0 +1,1095 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    height:100%;
+    line-height: 1.8em;
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.fenge{
+    width:100%;
+    height:15px;
+}
+.fenge30{
+    width:100%;
+    height:30px;
+}
+li {list-style-type:none;}
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+/*首页CSS开始*/
+/*头部CSS开始*/
+#spana{
+    height:20px;
+}
+#spana a{
+    text-decoration：none;
+    color: #fff;
+    line-height:35px;
+    /*font-weight:bold;*/
+    font-weight: 600;
+    /*font-size: 100%;*/
+    white-space:nowrap
+}
+#spanr a{
+    text-decoration：none;
+    color: #fff;
+    line-height:35px;
+    /*font-weight:bold;*/
+    font-weight: 600;
+    /*font-size: 100%;*/
+    white-space:nowrap
+}
+.container{
+    height:100%;
+}
+.top{
+    background-attachment: fixed;
+    position: relative;
+    /*position: absolute;top: 0px;left: 0px;*/
+    width:100%;
+
+}
+
+.top_top{
+    width: 100%;
+    height:30px;
+    background:#b40431;
+
+
+
+}
+.top_left{
+    width:572px;
+    height:30px;
+    font-size: 100%;
+    float:left;
+}
+.top_right{
+    width:79px;
+    height:20px;
+    float:right;
+}
+
+.top_nav{
+    background-attachment: fixed;
+    height:84px;
+    background-color: #fff;
+    width:100%;
+    margin-top:30px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+}
+.logow{
+    height:76px;
+}
+.logo{
+    float:left;
+    width:240px;
+    height:76px;
+}
+.menu{
+    width:634px;
+    height:53px;
+    float:right;
+    margin-top:30px;
+    position: absolute;
+    right: 210px;
+    top: 0px;
+}
+.menu ul li{
+    float:left;
+    margin:10px;
+}
+/*头部CSS结束*/
+
+/*动画部分CSS*/
+.animation{
+    width:100%;
+    height:575px;
+    /*background:pink;*/
+}
+.video{
+    width:100%;
+    height:100%;
+
+}
+
+/*动画部分CSS结束*/
+
+/*内容部分CSS开始*/
+.contentlist{
+    width:100%;
+    height:810px;
+    padding: 54px 0;
+    background-image: linear-gradient(333deg,#b40431 52%,#ffffff 0%)!important;
+    position: relative;
+    background-color: #fff;
+}
+.Our_Courses{
+    width:1080px;
+    height:129px;
+    margin:0 auto;
+    /*background:pink;*/
+}
+.star-rating{
+    width:70%;
+    height:20px;
+    margin-left:30px;
+}
+
+.Our_content{
+    width:1080px;
+    height:519px;
+    margin:0 auto;
+    /*background:pink;*/
+    display: flex;
+    flex-direction: row;         //水平方向方向，起点在左端;
+}
+
+.COntent_div{
+    width:321px;
+    height:459px;
+    /*padding:19px;*/
+    /*background:yellow;*/
+    margin: 18px;
+    border:1px #eee solid;
+    border-radius:10px;
+    overflow:hidden;
+    background-color: #fff;
+
+}
+
+.COntent_divcontainer{
+    border-radius:10px;
+    width:321px;
+    height:200px;
+
+}
+.COntent_divcontainer-image{
+    margin-left:0xp;
+}
+.Our_content_title{
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    /*text-align:center;*/
+    color:black;
+    margin-left:30px;
+}
+.strat{
+    color: #ffa700;
+    display: inline-block;
+    font-family: dashicons;
+    font-size: 18px;
+    width: 18px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: inherit;
+    vertical-align: top;
+}
+.review-text{
+    font-weight: bold;
+    margin-left: 4px;
+    font-size: 14px;
+    color: #BBB;
+
+}
+hr.divider {
+    border-color: #f1f1f1;
+    border-style: solid;
+    border: 1px solid #f7f7f7;
+    display: block;
+    unicode-bidi: isolate;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    overflow: hidden;
+    width:280px;
+
+}
+.course-price{
+    font-size: 16px;
+    margin: 12px 0;
+    color: #79c989;
+    font-weight: bold;
+    margin-left:30px;
+}
+.course-instructor{
+    margin: 15px 0;
+    display: flex;
+    flex-direction: center;
+    margin-left:30px;
+
+}
+
+
+.course-instructor img {
+    border-radius: 100%;
+
+
+    height: auto;
+}
+.course-instructor p{
+    margin-left:5px;
+    width:93px;
+    height:25px;
+    margin: 0 0 10px;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    /*background-color: #fff;*/
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+    font-weight: bold;
+}
+/*内容部分CSS结束*/
+
+
+/*choose us开始*/
+.chooseus{
+    width:100%;
+    height:464px;
+    background:#fff;
+
+}
+.choosetitle{
+    width:1080px;
+    height:94px;
+    margin: 0 auto;
+    /*background:pink;*/
+    position: relative;
+}
+.choosetitle h1{
+    width:100%;
+    height:41px;
+
+    /*background:pink;*/
+    position: absolute;
+    top:12px;
+
+}
+.choosecontent{
+    width:1080px;
+    height:260px;
+    margin: 0 auto;
+    /*background:pink;*/
+    display: flex;
+    flex-direction: row;
+}
+.chooseus_content{
+    width:321px;
+    height:206px;
+    position: relative;
+    /*max-width: 550px;*/
+    margin: 10px auto;
+    text-align: center;
+    /*background:yellow;*/
+
+}
+.chooseus_content_image{
+    width:99px;
+    height:99px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin:auto;
+}
+.chooseus_content_text{
+    width:321px;
+    height:79px;
+}
+/*choose us 结束*/
+
+
+/*getstarted 开始*/
+.getstarted{
+    width:100%;
+    height:197px;
+    background:#b40431;
+}
+.getstarted_center{
+    width:1080px;
+    height:153px;
+    margin:23px auto;
+}
+.getstarted{
+    /*background-color: #fff;*/
+    font-family: "Open Sans",Arial,sans-serif;
+
+}
+.getstarted_title{
+margin-top:50px;
+}
+.getstarted_btn{
+    text-align: center;
+    color:#fff;
+}
+.getstarted_button{
+    display: inline-block;
+    color: inherit;
+    position: relative;
+    padding: .3em 1em;
+    border: 2px solid;
+    border-radius: 3px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.7em!important;
+    transition: all .2s;
+    text-decoration: none;
+}
+/*getstarted 结束*/
+
+/*about us开始*/
+.aboutus{
+    width:100%;
+    height:544px;
+    background:#fff;
+}
+.aboutus_title{
+    /*width:1080px;*/
+    height:94px;
+    margin-top:20px;
+    padding: 27px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+}
+.about_content{
+    width:1080px;
+    /*height:342px;*/
+    margin:0 auto;
+    display: flex;
+    flex-direction: center;
+}
+.about_content_lists{
+    margin-top:65px;
+    height:288px;
+    width: 29.666%;
+    margin-right: 5.5%;
+    mix-blend-mode: unset!important;
+    float: left;
+    position: relative;
+    z-index: 9;
+    background-position: center;
+    background-size: cover;
+    background-color: #f4f4f4!important;
+    font-size: 100%;
+    vertical-align: baseline;
+    animation-duration: .2s;
+    text-align: left;
+
+    padding: 30px;
+    line-height: 1.5;
+    background-repeat: no-repeat;
+
+}
+.about_content_list{
+    width:261px;
+    height:228px;
+    /*background:pink;*/
+}
+.about_content_list_image{
+    width: 90px;
+    height: 89px;
+    display: block;
+    float: none;
+    margin: 0 auto 20px;
+    position: relative;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+.about_content_list_image img{
+    border:1px solid #bbbbbb;
+    border-radius: 50px;
+}
+
+/*about us 结束*/
+
+/*joinnow 开始*/
+.joinnow{
+    width:100%;
+    height:241px;
+    background:#b40431;
+    font-family: "Open Sans",Arial,sans-serif;
+}
+
+.joinnow_center{
+    width:1080px;
+    height:153px;
+    margin:23px auto;
+}
+.getstarted{
+    /*background-color: #fff;*/
+
+
+}
+.joinnow_title{
+    margin-top:50px;
+}
+.joinnow_btn{
+    text-align: center;
+    color:#fff;
+}
+.joinnow_button{
+    display: inline-block;
+    color: inherit;
+    position: relative;
+    padding: .3em 1em;
+    border: 2px solid;
+    border-radius: 3px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.7em!important;
+    transition: all .2s;
+    text-decoration: none;
+}
+/*joinnow 结束*/
+
+
+/*email us开始*/
+.email{
+    width:100%;
+    height:334px;
+    background-color: #f5f5f5!important;
+    position: relative;
+}
+.email_content{
+    /*width:1080px;*/
+    height:260px;
+
+    position: relative;
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+    background-color: #fff!important;
+    font-family: 'Open Sans', helvetica, arial, sans-serif;
+    line-height: 1em;
+    text-transform: none;
+    font-weight: normal;
+    margin:45px auto;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background-image: none;
+    display: flex;
+}
+.et_bloom .et_bloom_inline_form {
+    clear: both;
+    margin: 30px 0;
+    display: inline-block;
+    width: 100%;
+    max-width: 100%;
+}
+.et_pb_text_align_left {
+    text-align: left;
+}
+.et_pb_text{
+    word-wrap: break-word;
+}
+.email_content_left{
+    width: 66%;
+    box-sizing: border-box;
+    ont-family: 'Open Sans', helvetica, arial, sans-serif;
+    line-height: 1em;
+    text-transform: none;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background-image: none;
+    height: auto;
+    text-align: left;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: center;         //水平方向，起点在左端;
+
+}
+.email_content_left_list{
+    min-height: 200px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    background-color: #ffffff !important;
+    padding: 15px;
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    text-align: left;
+}
+.email_content_left_list_text{
+    display: table-cell;
+    clear: none;
+    width: 442px;
+    height:107px;
+float:right;
+    padding: 15px;
+    font-family: 'Open Sans', helvetica, arial, sans-serif;
+    line-height: 1em;
+
+
+}
+sanjiao{
+    background-size: 40px 20px !important;
+    top: 0;
+    left: -10px;
+    width: 10px;
+    height: 100%;
+    background: linear-gradient(45deg, transparent 33.33%, #e9e9e9 33.333%, #e9e9e9 66.66%, transparent 66.66%), linear-gradient(-45deg, transparent 33.33%, #e9e9e9 33.33%, #e9e9e9 66.66%, transparent 66.66%);
+    background-size: 40px 20px;
+
+    background: linear-gradient(45deg, transparent 33.33%, #b40431 33.333%, #b40431 66.66%, transparent 66.66%), linear-gradient(-45deg, transparent 33.33%, #b40431 33.33%, #b40431 66.66%, transparent 66.66%) !important;
+    background-size: 20px 40px !important;
+
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(45deg, transparent 33.33%, #e9e9e9 33.333%, #e9e9e9 66.66%, transparent 66.66%), linear-gradient(-45deg, transparent 33.33%, #e9e9e9 33.33%, #e9e9e9 66.66%, transparent 66.66%);
+    background-size: 20px 40px;
+
+    position: absolute;
+    content: '';
+    display: block;
+}
+.email_content_right{
+    width:368px;
+    height:260px;
+    float:left;
+    background:#b40431;
+    text-align: left;
+    word-wrap: break-word;
+
+}
+.email_content_form{
+    /*width:308px;*/
+    /*height:93px;*/
+    color: rgba(0, 0, 0, 0.5);
+    margin:35px auto;
+    padding: 40px 30px;
+    color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    /*background-color: #E9E9E9;*/
+    position: relative;
+
+}
+.inputText{
+    height:40px;
+    width:308px;
+    border-radius: 5px;
+}
+.email_content_eamil{
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-bottom: 15px;
+    float: left;
+}
+.email_content_eamil p{
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+
+/*email us 结束*/
+
+/*底部CSS开始*/
+.bottom{
+    width:100%;
+    height:55px;
+    background-color: #3d3d3d;
+}
+.bottom_center{
+
+}
+.bottom_ul{
+    float: right;
+    list-style: none;
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+    text-align: left;
+    line-height: 1.8em;
+}
+.bottom_li{
+    display: inline-block;
+    margin-left: 20px;
+    text-align: -webkit-match-parent;
+
+}
+.bottom_li a{
+    color: #ffffff;
+}
+#bottom_banquan{
+    font-size: 15px;
+    color: #ffffff;
+    float: left;
+    padding-bottom: 10px;
+
+    text-align: left;
+    margin-top:20px;
+}
+/*底部CSS结束*/
+/*首页CSS结束*/
+
+
+/*详细信息 HTML CSS开始*/
+
+/*main部分CSS开始*/
+.main{
+    width:100%;
+    height:2421px;
+    margin-top:85px;
+}
+/*main部分CSS结束*/
+
+/*广告展示部分CSS开始*/
+.main_ad{
+    width:100%;
+    height:332px;
+    background-size:100%;
+    background-blend-mode: overlay;
+    background-color: initial!important;
+    background:url(./images/cherry-header.jpg), linear-gradient(180deg,#b40431 34%,#000000 100%)!important;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    box-shadow: inset 0 0 7px rgba(0,0,0,.07);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+
+    box-sizing: border-box;
+    display: block;
+}
+.main_logo{
+    mix-blend-mode: unset!important;
+    float: left;
+    position: relative;
+    z-index: 9;
+    background-position: center;
+    background-size: cover;
+    width: 29.666%;
+    margin-right: 5.5%;
+    border: 5px solid #FFF;
+    border-radius: 10px;
+}
+.main_content{
+    margin-right: 0!important;
+    mix-blend-mode: unset!important;
+    float: left;
+    position: relative;
+    z-index: 9;
+    background-position: center;
+    background-size: cover;
+    width: 64.833%;
+}
+.main_content_title{
+
+    display: block;
+    position: relative;
+    z-index: 98;
+    max-width: 100%;
+    word-wrap: break-word;
+    color:#fff;
+
+}
+.main_content_title_2 p{
+    padding-bottom: 1em;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    color:#fff;
+
+}
+p:last-of-main_content_title_2 {
+    padding-bottom: 0;
+    font-weight: 700;
+    color:#fff;
+}
+.main_content_FREE{
+    padding-bottom: 0;
+    position: relative;
+    color: #fff!important;
+    font-weight: 700;
+    font-size: 20px;
+}
+.main_content_btn{
+    position: relative;
+    margin-top:20px;
+
+}
+.main_content-button{
+    color: #FFF !important;
+    background: transparent;
+    font-size: 16px;
+    position: relative;
+    padding: .3em 1em;
+    height:36px;
+    border: 2px solid;
+
+    font-weight: 500;
+    line-height: 1.7em!important;
+    border-radius: 3px;
+    /*transition: all .2s;*/
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.list_contents{
+    width:100%;
+    height:523px;
+    padding: 54px 0;
+
+}
+.list_contents_center{
+    padding: 27px 0;
+}
+.list_contents_left{
+    mix-blend-mode: unset!important;
+    float: left;
+    position: relative;
+    z-index: 9;
+    background-position: center;
+    background-size: cover;
+    width: 47.25%;
+    margin-right: 5.5%;
+}
+.list_contents_images{
+    /*animation-duration: .2s;*/
+}
+.list_contents_images_image img{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+
+/*广告展示部分CSS结束*/
+
+/*详细信息列表部分开始*/
+.list_table{
+    width:100%;
+    height:834px;
+    background-color: #f9f9f9!important;
+    padding: 54px 0;
+    position: relative;
+    background-position: center;
+}
+.list_tablecontent{
+    max-width: 80%!important;
+    width: 80%;
+    padding: 27px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin: auto;
+}
+.list_tablecontent_s{
+    margin-right: 0!important;
+    mix-blend-mode: unset!important;
+    float: left;
+    position: relative;
+    z-index: 9;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.list_table_title{
+    box-sizing: border-box;
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: #333;
+    font-weight: 500;
+    line-height: 1em;
+
+}
+button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    -webkit-writing-mode: horizontal-tb !important;
+    -webkit-appearance: button;
+}
+.accordion active{
+    box-sizing: border-box;
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid #FFF;
+}
+/*详细信息列表部分结束*/
+
+/*详细信息内容介绍CSS开始*/
+.list_content_interduce{
+    width:100%;
+    height:549px;
+    padding: 54px 0;
+}
+.container list_content_interduce_center{
+    padding: 27px 0;
+    position: relative;
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+}
+.list_content_interduce_center_left{
+    mix-blend-mode: unset!important;
+    float: left;
+    position: relative;
+    z-index: 9;
+    background-position: center;
+    background-size: cover;
+    width: 47.25%;
+    margin-right: 5.5%;
+}
+.list_center_texts{
+ margin-bottom: 10px;
+}.
+.list_center_texts_logo{
+
+    width: 32px;
+    height:32px;
+
+
+    margin-bottom: 30px;
+    text-align: left;
+
+}
+.list_center_texts_wenzi{
+    text-align: left;
+    padding-left: 15px;
+    display: table-cell;
+    vertical-align: top;
+    width:350px;
+}
+.list_content_interduce_center_right{
+    margin-right: 0!important;
+    float: left;
+    position: relative;
+    z-index: 9;
+    background-position: center;
+    background-size: cover;
+    width: 47.25%;
+}
+.list_center_right_title{
+    position: relative;
+
+}
+.list_center_right_content{
+    width:510px;
+    height:58px;
+    animation-duration: .2s;
+    animation-timing-function: linear;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #d9d9d9;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5.82%;
+}
+.getstartnow{
+    height:185px;
+    width:100%;
+    background-image: linear-gradient(180deg,#b40431 0%,#000000 100%)!important;
+    background-color: #b40431!important;
+    position: relative;
+
+}
+.getstartnow_center{
+    padding: 27px 0;
+    position: relative;
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+}
+.get_center_li{
+    width:1080px;
+    height:131;
+    font-weight: 700;
+    font-size: 27px;
+    padding-top: 10px!important;
+    padding-bottom: 10px!important;
+    text-align: center;
+    color: #fff!important;
+}
+.get_a{
+    color: #FFF !important;
+    background: transparent;
+    position: relative;
+    padding: .3em 1em;
+    border: 2px solid;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.7em!important;
+    text-decoration: none;
+
+}
+/*详细信息内容介绍CSS结束*/
+
+/*详细信息HTML CSS结束*/
+
+/*content HTML CSS开始*/
+.content_main{
+    width:100%;
+    height:1143px;
+}
+.contentHTML_top{
+    width:100%;
+    height:137px;
+    margin-top:80px;
+    /*padding: 54px 0;*/
+    background-image: url('./images/cherry-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.contentHTML_center{
+    width: 100%;
+    mix-blend-mode: unset!important;
+    float: left;
+    position: relative;
+    z-index: 9;
+    background-position: center;
+    background-size: cover;
+    margin-top:0px;
+    color: #fff!important;
+}
+.contentHTML_content{
+    height:681px;
+    width:100%;
+    background-blend-mode: overlay;
+    background-image: url('./images/cherry-881548_1280.jpg')!important;
+    background-repeat: no-repeat;
+    background-color: rgba(255,255,255,0.87)!important;
+    padding: 54px 0;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+.contentHTML_buttom{
+    width:100%;
+    height:325px;
+
+    /*padding: 54px 0;*/
+    background-blend-mode: overlay;
+    background-image: url('./images/cherry-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.51)!important;
+    padding: 54px 0;
+    position: relative;
+}
+.contentHTML_conter_li{
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.contentHTML_conter_list{
+    color:#fff;
+}
+.contentHTML_conter_button{
+    width:180px;
+    margin:30px auto;
+    position: relative;
+    padding: .3em 1em;
+    border: 2px solid;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.7em!important;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s;
+    color:#fff;
+
+}
+.contentHTML_conter_button a{
+    color:#fff;
+}
+
+
+}
+/*content HTML CSS结束*/
+
+
+
+
+
